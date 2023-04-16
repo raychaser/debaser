@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "debaser"
+version = "0.1.0"
+description = "Generate all the conversations, even some entertaining ones!"
+authors = ["Christian Beedgen <raychaser@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4.0"
+langchain = "^0.0.141"
+openai = "^0.27.4"
+typer = "^0.7.0"
+rich = "^13.3.4"
+shellingham = "^1.5.0"
+tomli = "^2.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
